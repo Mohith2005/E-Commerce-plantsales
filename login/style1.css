@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height:70px;
+}
+
+.logo{
+    color: #e9f1f1;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #e9f1f1;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: blue;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 150px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    margin-top: 13px;
+    color: rgb(237, 246, 248) ;
+    border-right: none;
+    font-size: 16px;
+    font: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #6182dc;
+    border: 2px solid #6182dc;
+    margin-top: 13px;
+    color: antiquewhite;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btm:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    padding-top: 2500;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(246, 255, 255);
+    position: relative;
+}
+.content .par{
+    padding-top: 250px;
+    padding-left: none;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
